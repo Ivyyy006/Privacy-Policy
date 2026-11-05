@@ -18,7 +18,14 @@
     .contact { margin-top: 4px; }
     a { color: #111; text-decoration: underline; text-underline-offset: 3px; }
     a:focus-visible { outline: 2px solid #111; outline-offset: 3px; }
-    @media(max-width: 600px) { main { margin-top: 30px; } body { padding-inline: 18px; font-size: 15px; } h2 { font-size: 19px; margin-top: 26px; } }
+    @media (max-width: 600px) {
+      html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+      main { margin-top: 30px; }
+      body { padding-inline: 18px; font-size: 14px; }
+      h1 { font-size: 24px; }
+      h2 { font-size: 16px; margin-top: 26px; }
+      .meta { font-size: 13px; }
+    }
   </style>
 </head>
 <body>
